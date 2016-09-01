@@ -1,0 +1,10 @@
+.pair {
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+}
+
+.bushing {
+  padding: 1em;
+  margin: 1em;
+}
+

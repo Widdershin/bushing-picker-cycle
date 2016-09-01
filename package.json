@@ -1,0 +1,36 @@
+{
+  "name": "bushing-picker-cycle",
+  "version": "1.0.0",
+  "description": "bushingpicker.com, rewritten in Cycle.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo index.js:bundle.js --live -- -t babelify | garnish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Widdershin/bushing-picker-cycle.git"
+  },
+  "keywords": [],
+  "author": "Nick Johnstone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Widdershin/bushing-picker-cycle/issues"
+  },
+  "homepage": "https://github.com/Widdershin/bushing-picker-cycle",
+  "dependencies": {
+    "@cycle/dom": "^12.2.2",
+    "@cycle/xstream-run": "^3.1.0",
+    "lodash": "^4.15.0",
+    "snabbdom": "^0.5.1",
+    "xstream": "^6.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "budo": "^9.0.0",
+    "garnish": "^5.2.0"
+  }
+}
